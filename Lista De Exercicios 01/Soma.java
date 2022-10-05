@@ -18,8 +18,6 @@ public class Soma {
 		
 		System.out.println("A soma de " + a + " + " + b + " fica: " + somar );
 		
-		
-		
-		 
+			 
 	}
 }
