@@ -1,3 +1,5 @@
+//Faça um programa que peça um número e apresente na tela o antecessor e o sucessor dele.
+
 package lista_01;
 
 import java.util.Scanner;
@@ -8,14 +10,14 @@ public class Antecessor_Sucessor {
 		
 		int x, suce, ante;
 		
-		System.out.println("Informe um n�mero: ");
+		System.out.println("Informe um número: ");
 		x = ler.nextInt();
 		
 		suce = x + 1;
 		ante = x - 1;
 		
-		System.out.println("O Sucessor de "+ x + " � " + suce + ".");
-		System.out.println("O Antecessor de "+ x + " � " + ante + ".");
+		System.out.println("O Sucessor de "+ x + " é " + suce + ".");
+		System.out.println("O Antecessor de "+ x + " é " + ante + ".");
 		
 		
 	} {
