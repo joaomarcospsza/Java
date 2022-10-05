@@ -20,7 +20,6 @@ public class Antecessor_Sucessor {
 		System.out.println("O Antecessor de "+ x + " é " + ante + ".");
 		
 		
-	} {
-		
+	} {	
 	}
 }
