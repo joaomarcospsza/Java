@@ -1,5 +1,4 @@
 package lista_01;
-
 import java.util.Scanner;
 
 public class Area_quadrado {
@@ -12,10 +11,10 @@ public class Area_quadrado {
 		System.out.println("Informe o lado do quadrado: ");
 		lado_quadrado = ler.nextDouble();
 		
-		area = Math.PI * lado_quadrado * lado_quadrado;
+		area = lado_quadrado * lado_quadrado;
 		perimetro = lado_quadrado + lado_quadrado + lado_quadrado + lado_quadrado;
 		
-		System.out.println("A área do quadrado e: " + area + " e seu perimeto  " + perimetro);
+		System.out.println("A Ã¡rea do quadrado e: " + area + " e seu perimeto  " + perimetro);
 	}
 
 }
